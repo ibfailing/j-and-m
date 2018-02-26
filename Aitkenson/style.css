@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: "Actor", sans-serif;
+}
+.home {
+	background-color: red;
+	box-sizing: content-box;
+	padding: 0;
+	margin: 0;
+}
+
+.background {
+	background-color: red;
+	float: left;
+}
+
+.navigation {
+	float: right;
+	font-size: large;
+	background-color: red;
+	vertical-align: bottom;
+}
+
+#vbottombestsellers {
+    color:black;
+    display:inline-block;
+    float:left;
+	border: 1px solid #000000;
+	text-align: center;
+	width: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#vbottomnewarrivals {
+    color:black;
+    display:inline-block;
+	align-content: center;
+	border: 1px solid #000000;
+	width: 20%;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+#vbottomenquiries {
+    color:black;
+    display:block;
+    float:right;
+    display:inline-block;
+	border: 1px solid #000000;
+	text-align: center;
+	width: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
+}	
+
+
+.padding-75px {
+	padding: 50px;
+}
+
+.roundedborder {
+	border-radius: 15px;
+}
